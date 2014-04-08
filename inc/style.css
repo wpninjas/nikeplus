@@ -1,0 +1,26 @@
+/* NikePlus Stylesheet
+ * Author: Tineke Timmerman
+ * Author URI: http://www.in-town.nl/
+ * */
+ul#nikeplus {background:#1982D1; color:#fff; display:block; margin:0 0 20px 0; padding:10px 5px; position:relative;}
+ul#nikeplus::after {content: ""; display: table; clear: both;}
+ul#nikeplus li {list-style:none; float:left;width:16.6%; font-size:90%;}
+ul#nikeplus li#runs {width:14%;}
+ul#nikeplus li#fuel {width:15%}
+ul#nikeplus li#distance {width:18.6%}
+ul#nikeplus li#pace {width:17.3%}
+ul#nikeplus li#calories {width:17.3%}
+ul#nikeplus p {clear:left; display:inline;margin:0;line-height:100%;}
+.runs,.runs2, .fuel, .distance,.time, .pace, .calories, .profile, .nike-logo  { background-image:url(../img/nikeplus-sprite.png); background-repeat:no-repeat; float:left;padding:0; width:28px; height:38px; text-indent:35px; margin-right:3px;}
+.runs2{background-position:-27px 0;width:37px;}
+.pace, .fuel {width:38px;}
+.runs {background-position:0 0;}
+.fuel{background-position:-96px 0;}
+.distance{background-position:-244px 0; width:31px; }
+.time{background-position:-65px 0;width:31px;}
+.pace{background-position:-135px 0;}
+.calories{background-position:-276px 0;width:30px;}
+.profile{background-position:-174px 0;}
+.profiles{background-position:-205px 0; width:40px;}
+.nike-logo{background-position:-305px 0; height:11px;}
+ul#nikeplus li .nr {font-size:120%; font-weight:bold;line-height:80%;}
