@@ -17,12 +17,12 @@ define('NIKE_PLUS_URL', WP_PLUGIN_URL.'/nikeplus/');
 /**
  * Load plugin textdomain
  **/
-load_plugin_textdomain('nikeplus', false, NINJA_NIKE_DIR . 'languages' );
+load_plugin_textdomain('nikeplus', false, NIKE_PLUS_DIR . 'languages' );
 
 /**
  * Include core files
  **/
-require_once( NIKE_PLUS_DIR . 'inc/nikeplusphp.4.3.2.php' );
+require_once( NIKE_PLUS_DIR . 'inc/nikeplusphp.4.5.1.php' );
 require_once( NIKE_PLUS_DIR . 'options/options.php' );
 require_once( NIKE_PLUS_DIR . 'options/user.php' );
 require_once( NIKE_PLUS_DIR . 'functions/post-type.php' );

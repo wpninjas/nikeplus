@@ -18,9 +18,11 @@ function nikeplus_individual_totals( $args ) {
     $args = wp_parse_args( $args, $defaults );
     extract( $args, EXTR_SKIP );
     $totals = get_user_meta( $runner, 'run_totals' );
+    $nike_username = get_user_meta( $runner, 'nike_username', true );
+    $nike_password = get_user_meta( $runner, 'nike_password', true );
 
     if( $totals ) :
-        $n = new NikePlusPHP( '', '', false);
+        $n = new NikePlusPHP( '', '' );
         $opt = get_option( 'nikeplus_options' );
         $content = '';
 

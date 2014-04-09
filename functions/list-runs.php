@@ -31,7 +31,7 @@ function nikeplus_list_runs( $args ) {
     $query = new WP_Query($fetch);
 
     if($query->posts) :
-        $n = new NikePlusPHP( '', '', false);
+        $n = new NikePlusPHP( '', '' );
         $opt = get_option( 'nikeplus_options' );
         $content = '';
         do_action( 'nikeplus_list_runs_before', $args );

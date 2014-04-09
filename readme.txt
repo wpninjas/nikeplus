@@ -1,9 +1,9 @@
 === Nike+ ===
 Contributors: jameslaws, kstover
 Tags: Nike+, Nike Plus, Nike, running, widget, shortcode
-Requires at least: 3.1
-Tested up to: 3.4.2
-Stable tag: 1.0
+Requires at least: 3.6
+Tested up to: 3.9
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -151,6 +151,11 @@ I haven't taken any screenshots yet but you can see my stats displayed on my per
 
 == Changelog ==
 
+= 1.1 =
+* Upgraged to version 4.5.1 of Nike+PHP class
+* Fixed some notices being displayed
+* fixed some connectivitely issues some users have been reporting
+
 = 1.0 =
 This is a complete overhaul and adds several new features.
 
@@ -167,4 +172,7 @@ This is a complete overhaul and adds several new features.
 
 == Upgrade Notice ==
 
-This is a complete overhaul and adds several new features. You will need to add your Nike+ credentials to your profile screen and update any functions, shortcodes or widgets you are currently using.
+= 1.1 =
+* Upgraged to version 4.5.1 of Nike+PHP class
+* Fixed some notices being displayed
+* fixed some connectivitely issues some users have been reporting
